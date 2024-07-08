@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Bose</title>
+  </head>
+  <body>
+
+  <header class="header">
+    <div class="header-container container">
+      <nav class="head-nav">
+        <a href="/">
+          <svg class="icon-logo" width="100" height="12">
+            <use href="./img/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+          <ul class="head-nav-list">
+            <li class="head-nav-item"><a href="#characteristics" class="head-nav-link">Characteristics</a></li>
+            <li class="head-nav-item"><a href="#history" class="head-nav-link">History</a></li>
+            <li class="head-nav-item"><a href="#reviews" class="head-nav-link">Reviews</a></li>
+            <li class="head-nav-item"><a href="#order" class="head-nav-link">Payment and delivery</a></li>
+          </ul>
+
+          <button type="button" class="open-mob-menu js-open-menu" aria-label="Open menu">
+            <svg class="icon-hamburger" width="22" height="12">
+              <use href="./img/icons.svg#icon-hamburger"></use>
+            </svg>
+          </button>
+        </nav>
+    </div>
+    <div class="mob-menu js-menu-container" id="modal-menu">
+      <div class="mob-container">
+        <a href="/">
+          <svg class="icon-logo" width="100" height="12">
+            <use href="./img/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+  
+          <button type="button" class="close-menu-btn js-close-menu" aria-label="Close menu">
+            <svg class="icon-close" width="24" height="24">
+              <use href="./img/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+      </div>
+
+        <nav class="mob-nav">
+          <ul class="mob-nav-list">
+            <li class="mob-nav-item"><a href="#characteristics" class="mob-nav-link header-mob-menu-link">Characteristics</a></li>
+            <li class="mob-nav-item"><a href="#history" class="mob-nav-link header-mob-menu-link">History</a></li>
+            <li class="mob-nav-item"><a href="#reviews" class="mob-nav-link header-mob-menu-link">Reviews</a></li>
+            <li class="mob-nav-item"><a href="#order" class="mob-nav-link header-mob-menu-link">Payment and delivery</a></li>
+          </ul>
+        </nav>
+    </div>
+  </header>
+
+    <section class="hero-section section">
+      <div class="hero-container container">
+        <div class="hero-first-part">
+          <p class="hero-text first">
+            Noise cancellation headphones
+            that are capable for a lot of things
+          </p>
+          <p class="hero-text second">
+            Up to 20 hours
+            of playback
+          </p>
+          <h1 class="hero-title">
+            Headphones 
+            Bose NC 700
+          </h1>
+          <a href="#" class="hero-btn">Order</a>
+        </div>
+        <picture>
+          <source media="(min-width: 1440px)" 
+          srcset="./img/headphone-desk-1x.jpg 1x, ./img/headphone-desk-2x.jpg 2x">
+          <source media="(min-width: 768px)" 
+          srcset="./img/headphone-tab-1x.jpg 1x, ./img/headphone-tab-2x.jpg 2x">
+          <source media="(max-width: 767px)" 
+          srcset="./img/headphone-mob-1x.jpg 1x, ./img/headphone-mob-2x.jpg 2x">
+          <img src="./img/headphone-mob-1x.jpg" alt="headphone" class="hero-img">
+      </picture>
+        <!-- <img src="./img/headphone-mob-1x.jpg" alt="headphone" class="hero-img"> -->
+      </div>
+    </section>
+
+    <section class="design-section section">
+    <div class="design-container container">
+      <div class="design-part">
+        <h2 class="design-title">
+          Premium design 
+          and comfort
+        </h2>
+        <ul class="design-list">
+          <li class="design-item">
+            <h3 class="design-subtitle">11 levels of noise reduction</h3>
+            <p class="design-text">
+              With the new Bose Noise Canceling Headphone 700,
+              you can smoothly increase or decrease the level of 
+              noise cancellation. You can be heard perfectly and you hear 
+              the interlocutor clearly, even in a noisy environment!
+            </p>
+          </li>
+          <li class="design-item">
+            <h3 class="design-subtitle">Comfort up to max level</h3>
+            <p class="design-text">
+              Stylish, lightweight stainless steel headband with soft, angled 
+              cups of headphones for comfortable seating. The inner side is 
+              made of soft gel lining that fits well to the head.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <picture>
+        <source media="(min-width: 1440px)" 
+        srcset="./img/comfort-desk-1x.png 1x, ./img/comfort-desk-2x.png 2x">
+        <source media="(min-width: 768px)" 
+        srcset="./img/comfort-tab-1x.png 1x, ./img/comfort-tab-2x.png 2x">
+        <source media="(max-width: 767px)" 
+        srcset="./img/comfort-mob-1x.png 1x, ./img/comfort-mob-2x.png 2x">
+        <img src="./img/comfort-mob-1x.png" alt="comfort" class="comfort-img">
+    </picture>
+      <!-- <img src="./img/comfort-mob-1x.png" alt="comfort" class="comfort-img"> -->
+    </div>
+    </section>
+
+    <section class="ability-section section" id="characteristics">
+      <div class="ability-container container">
+        <h2 class="ability-title">
+          capable 
+          of so much
+        </h2>
+        <ul class="ability-list">
+          <li class="ability-item">
+            <svg class="ability-icon-ellips" width="13" height="13">
+              <use href="./img/icons.svg#icon-ellips"></use>
+            </svg>
+            Ability to receive calls
+          </li>
+          <li class="ability-item">
+            <svg class="ability-icon-ellips" width="13" height="13">
+              <use href="./img/icons.svg#icon-ellips"></use>
+            </svg>
+            Rich and powerful sound
+          </li>
+          <li class="ability-item">
+            <svg class="ability-icon-ellips" width="13" height="13">
+              <use href="./img/icons.svg#icon-ellips"></use>
+            </svg>
+            Active noise cancellation option
+          </li>
+          <li class="ability-item">
+            <svg class="ability-icon-ellips" width="13" height="13">
+              <use href="./img/icons.svg#icon-ellips"></use>
+            </svg>
+            Unsurpassed microphone system
+          </li>
+          <li class="ability-item">
+            <svg class="ability-icon-ellips" width="13" height="13">
+              <use href="./img/icons.svg#icon-ellips"></use>
+            </svg>
+            Support of voice assistants
+          </li>
+          <li class="ability-item">
+            <svg class="ability-icon-ellips" width="13" height="13">
+              <use href="./img/icons.svg#icon-ellips"></use>
+            </svg>
+            Bose AR Augmented Reality 
+            Audio Platform
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sound-section section">
+      <div class="sound-container container">
+        <h2 class="sound-title">The luxury of silence</h2>
+        <picture>
+          <source media="(min-width: 1440px)" 
+          srcset="./img/luxury-desk-1x.png 1x, ./img/luxury-desk-2x.png 2x">
+          <source media="(min-width: 768px)" 
+          srcset="./img/luxury-tab-1x.png 1x, ./img/luxury-tab-2x.png 2x">
+          <source media="(max-width: 767px)" 
+          srcset="./img/luxury-mob-1x.png 1x, ./img/luxury-mob-2x.png 2x">
+          <img src="./img/luxury-mob-1x.png" alt="sound0" class="sound-img">
+      </picture>
+        <!-- <img src="./img/luxury-mob-1x.png" alt="sound0" class="sound-img"> -->
+        <ul class="sound-list">
+          <li class="sound-item">
+            <h3 class="sound-subtitle">Maximum enjoyment</h3>
+            <p class="sound-text">
+              In order to create a comfortable atmosphere - raise 
+              the level by level from the "transparent" mode to the 
+              maximum blocking of sounds. The conversation mode can be 
+              activated in one click using 
+              a special button.
+            </p>
+          </li>
+          <li class="sound-item">
+            <h3 class="sound-subtitle">Crystal sound</h3>
+            <p class="sound-text">
+              The speaker system and brand name active equalizer
+              are able to provide high-quality and powerful sound at 
+              any volume level. You can be sure of no distortion and 
+              crystal clear at high and low frequencies.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-technology section">
+      <div class="technology-container container">
+        <div class="technology-part">
+          <h2 class="technology-title">Bose AR</h2>
+          <h3 class="technology-subtitle">Brand name technology</h3>
+          <p class="technology-text">
+            Bose AR is a unique audio platform augmented reality, that opens before  
+            you new facets of sound. It allows you
+            to stay connected to the real world and immerse yourself in the virtual universe 
+            at the same time.
+          </p>
+        </div>
+        <picture>
+          <source media="(min-width: 1440px)" 
+          srcset="./img/tech-desk-1x.png 1x, ./img/tech-desk-2x.png 2x">
+          <source media="(min-width: 768px)" 
+          srcset="./img/tech-tab-1x.png 1x, ./img/tech-tab-2x.png 2x">
+          <source media="(max-width: 767px)" 
+          srcset="./img/tech-mob-1x.png 1x, ./img/tech-mob-2x.png 2x">
+          <img src="./img/tech-mob-1x.png" alt="technology" class="technology-img">
+      </picture>
+        <!-- <img src="./img/tech-mob-1x.png" alt="technology" class="technology-img"> -->
+      </div>
+    </section>
+
+    <section class="guarantee-section section">
+      <div class="guarantee-container container">
+        <div class="guarantee-part">
+          <h2 class="guarantee-title">Guarantees</h2>
+          <ul class="guarantee-list">
+            <li class="guarantee-item">
+              <svg class="icon-ellips" width="13" height="13">
+                <use href="./img/icons.svg#icon-ellips"></use>
+              </svg>
+              <h3 class="guarantee-subtitle">
+                90 Day Money 
+                Back Guarantee
+              </h3>
+              <p class="guarantee-text">
+                If you are not 100% satisfied with a product, 
+                you can return it back for a full refund.
+              </p>
+            </li>
+            <li class="guarantee-item">
+              <svg class="icon-ellips" width="13" height="13">
+                <use href="./img/icons.svg#icon-ellips"></use>
+              </svg>
+              <h3 class="guarantee-subtitle">1 year warranty</h3>
+              <p class="guarantee-text">
+                Regardless of your country of residence,
+                if your headphones are broken, we will send you new ones.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <picture>
+          <source media="(min-width: 1440px)" 
+          srcset="./img/guarantees-desk-1x.jpg 1x, ./img/guarantees-desk-2x.jpg 2x">
+          <source media="(min-width: 768px)" 
+          srcset="./img/guarantees-tab-1x.jpg 1x, ./img/guarantees-tab-2x.jpg 2x">
+          <source media="(max-width: 767px)" 
+          srcset="./img/guarantees-mob-1x.jpg 1x, ./img/guarantees-mob-2x.jpg 2x">
+          <img src="./img/guarantees-mob-1x.jpg" alt="guarantee" class="guarantee-img" width="280">
+      </picture>
+        <!-- <img src="./img/guarantees-mob-1x.jpg" alt="guarantee" class="guarantee-img"> -->
+      </div>
+    </section>
+
+    <section class="history-section section" id="history">
+      <div class="history-container container">
+        <div class="history-first-part">
+          <div class="history-first-container">
+            <h2 class="history-title">
+              brand 
+              creation 
+              history
+            </h2>
+            <p class="history-text">
+              The history of Bose Corporation began 
+              with disappointment. In 1956, MIT graduate student Amar Bose bought one 
+              of the best stereo systems at the time for his home.
+              After a few minutes of listening to the audio recording, his bewilderment turned 
+              to disappointment. 
+            </p>
+          </div>
+          <div class="history-second-container">
+            <picture>
+              <source media="(min-width: 1440px)" 
+              srcset="./img/historyf-desk-1x.png 1x, ./img/historyf-desk-2x.png 2x">
+              <source media="(min-width: 768px)" 
+              srcset="./img/historyf-tab-1x.png 1x, ./img/historyf-tab-2x.png 2x">
+              <source media="(max-width: 767px)" 
+              srcset="./img/historyf-mob-1x.png 1x, ./img/historyf-mob-2x.png 2x">
+              <img src="./img/historyf-mob-1x.png" alt="history" class="history-img">
+          </picture>
+            <!-- <img src="./img/historyf-mob-1x.png" alt="history" class="history-img"> -->
+            <p class="history-text first-txt">
+              From Amar's point of view, the sound was 
+              so flat and unnatural that it was better not 
+              to listen to the music at all than to listen 
+              to it in such a distorted form.
+            </p>
+            <p class="history-text second-txt">
+              Bose's frustration grew into a firm determination to build audio 
+              equipments that would reproduce sound with impeccable accuracy and naturalness
+            </p>
+          </div>
+        </div>
+        <div class="history-second-part">
+          <picture>
+            <source media="(min-width: 1440px)" 
+            srcset="./img/historys-desk-1x.png 1x, ./img/historys-desk-2x.png 2x">
+            <source media="(min-width: 768px)" 
+            srcset="./img/historys-tab-1x.png 1x, ./img/historys-tab-2x.png 2x">
+            <source media="(max-width: 767px)" 
+            srcset="./img/historys-mob-1x.png 1x, ./img/historys-mob-2x.png 2x">
+            <img src="./img/historys-mob-1x.png" alt="history" class="history-img-second">
+        </picture>
+          <!-- <img src="./img/historys-mob-1x.png" alt="history" class="history-img-second"> -->
+          <div class="history-second-txt">
+            <svg class="icon-brackets" width="34" height="25">
+              <use href="./img/icons.svg#icon-brackets"></use>
+            </svg>
+            <p class="history-coment">
+              Never stop dreaming. Always dream of the best, and think about how to achieve it.
+            </p>
+            <p class="hisrory-author">
+              Amar Bose is a company founder 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section section" id="faq">
+      <div class="faq-container container">
+        <h2 class="faq-title">faq</h2>
+        <ul class="faq-list accordion-container">
+          <li class="faq-item ac" id="first-element">
+            <div class="ac-header">
+              <button type="button" class="ac-trigger">
+                How to pair with a mobile device?
+              </button>
+            </div>
+            <div class="ac-panel">
+              <p class="ac-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Adipisci, nisi odio nobis vero magni itaque aperiam sunt,
+                asperiores natus at, nam qui. Quibusdam explicabo maiores exercitationem vel. 
+                Aspernatur, suscipit debitis.
+              </p>
+            </div>
+          </li>
+          <li class="faq-item ac">
+            <div class="ac-header">
+              <button type="button" class="faq-text ac-trigger">
+                What is the wireless range 
+                of the Bose NC 700?
+              </button>
+            </div>
+            <div class="ac-panel text-content">
+              <p class="ac-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Adipisci, nisi odio nobis vero magni itaque aperiam sunt,
+                asperiores natus at, nam qui. Quibusdam explicabo maiores exercitationem vel. 
+                Aspernatur, suscipit debitis.
+              </p>
+            </div>
+          </li>
+          <li class="faq-item ac">
+            <div class="ac-header">
+              <button type="button" class="faq-text ac-trigger">
+                How do I fold the Bose NC 700 headphones for storage?
+              </button>
+            </div>
+            <div class="ac-panel text-content">
+              <p class="ac-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Adipisci, nisi odio nobis vero magni itaque aperiam sunt,
+                asperiores natus at, nam qui. Quibusdam explicabo maiores exercitationem vel. 
+                Aspernatur, suscipit debitis.
+              </p>
+            </div>
+          </li>
+          <li class="faq-item ac">
+            <div class="ac-header">
+              <button type="button" class="faq-text ac-trigger">
+                Does the guarantee work internationally?
+              </button>
+            </div>
+            <div class="ac-panel text-content">
+              <p class="ac-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Adipisci, nisi odio nobis vero magni itaque aperiam sunt,
+                asperiores natus at, nam qui. Quibusdam explicabo maiores exercitationem vel. 
+                Aspernatur, suscipit debitis.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="order-section section" id="order">
+    <div class="order-container container">
+      <h2 class="order-title">bose nc 700</h2>
+<!-- Slider main container -->
+        <div class="order-wrapper">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <picture>
+                  <source media="(min-width: 1440px)" 
+                  srcset="./img/headphone-dark-desk-1x.jpg 1x, ./img/headphone-dark-desk-2x.jpg 2x">
+                  <source media="(min-width: 768px)" 
+                  srcset="./img/headphone-dark-tab-1x.jpg 1x, ./img/headphone-dark-tab-2x.jpg 2x">
+                  <source media="(max-width: 767px)" 
+                  srcset="./img/headphone-dark-mob-1x.jpg 1x, ./img/headphone-dark-mob-2x.jpg 2x">
+                  <img src="./img/headphone-dark-mob-1x.jpg" alt="dark headphone">
+              </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture>
+                  <source media="(min-width: 1440px)" 
+                  srcset="./img/headphone-light-desk-1x.jpg 1x, ./img/headphone-light-desk-2x.jpg 2x">
+                  <source media="(min-width: 768px)" 
+                  srcset="./img/headphone-light-tab-1x.jpg 1x, ./img/headphone-light-tab-2x.jpg 2x">
+                  <source media="(max-width: 767px)" 
+                  srcset="./img/headphone-light-mob-1x.jpg 1x, ./img/headphone-light-mob-2x.jpg 2x">
+                  <img src="./img/headphone-light-mob-1x.jpg " alt="light headphone">
+              </picture>
+              </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="order-wrap-list">
+            <ul class="order-list">
+              <li class="order-item">
+                  Availability in stores
+                <svg class="icon-arrow" width="20" height="20">
+                  <use href="./img/icons.svg#icon-arrow"></use>
+                </svg>
+              </li>
+              <li class="order-item">
+                  Characteristics
+                <svg class="icon-arrow" width="20" height="20">
+                  <use href="./img/icons.svg#icon-arrow"></use>
+                </svg>
+              </li>
+              <li class="order-item">
+                  Payment and delivery methods
+                <svg class="icon-arrow" width="20" height="20">
+                  <use href="./img/icons.svg#icon-arrow"></use>
+                </svg>
+              </li>
+            </ul>
+            <p class="order-price">14 999 UAH</p>
+            <a href="/" class="order-btn">Order</a>
+          </div>
+        </div>                                                
+      <picture>
+        <source media="(min-width: 1440px)" 
+        srcset="./img/order-desk-1x.png 1x, ./img/order-desk-2x.png 2x">
+        <source media="(min-width: 768px)" 
+        srcset="./img/order-tab-1x.png 1x, ./img/order-tab-2x.png 2x">
+        <source media="(max-width: 767px)" 
+        srcset="./img/order-mob-1x.png 1x, ./img/order-mob-2x.png 2x">
+        <img src="./img/order-mob-1x.png" alt="girl">
+    </picture>
+      <!-- <img src="./img/order-mob-1x.png" alt="girl"> -->
+    </div>
+    </section>
+
+    <section class="feedback-section" id="reviews">
+      <div class="feedback-container container">
+        <div>
+          <h2 class="feedback-title">Feedback</h2>
+          <p class="feedback-text">
+            We'll help you find the right headphones for you.
+          </p>
+        </div>
+        <div>
+          <form class="feedback-form">
+          <label for="feedback-name" class="feedback-name-lable">
+            <input type="text" name="feedback-name" id="feedback-name" class="feedback-input" placeholder="Your name">
+          </label>
+          <label for="feedback-email" class="feedback-email-lable">
+            <input type="email" name="feedback-email" id="feedback-email" class="feedback-input" placeholder="Your e-mail">
+          </label>
+          <textarea name="user-feedback" id="user-feedback" class="user-feedback-text" placeholder="Send us a message"></textarea>
+          <div class="check-field">
+            <input type="checkbox" name="user-privacy" id="user-privacy" class="form-check visually-hidden" value="true">
+            <label for="user-privacy" class="check-text">
+              <span class="diff-area">
+                <svg class="check-icon" width="10" height="8">
+                    <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+            </span>
+            I agree to the <a href="" class="privacy-link">privacy policy</a></label>
+        </div>
+          <button type="submit" class="form-btn">Send</button>
+        </div>
+          </form>
+        </div>
+    </section>
+    <footer class="footer-section">
+      <div class="footer-container container">
+        <div class="footer">
+                <ul class="footer-list">
+                  <li class="footer-item"><a href="#characteristics" class="footer-link">Characteristics</a></li>
+                  <li class="footer-item"><a href="#history" class="footer-link">History</a></li>
+                  <li class="footer-item"><a href="#reviews" class="footer-link">Reviews</a></li>
+                </ul>
+                <ul class="footer-list">
+                  <li class="footer-item"><a href="#order" class="footer-link">Payment and delivery</a></li>
+                  <li class="footer-item">Store addresses</li>
+                  <li class="footer-item"><a href="#faq" class="footer-link">FAQ</a></li>
+                </ul>
+        </div>
+        <address class="foot-address">
+          <a href="tel:88001111111" class="footer-tel">8 (800) 111-11-11</a>
+        </address>
+      </div>
+    </footer>
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
