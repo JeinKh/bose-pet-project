@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -27,14 +28,11 @@
             <li class="head-nav-item"><a href="#order" class="head-nav-link">Payment and delivery</a></li>
           </ul>
 
-          <button type="button" class="open-mob-menu js-open-menu" aria-label="Open menu">
-            <svg class="icon-hamburger" width="22" height="12">
-              <use href="./img/icons.svg#icon-hamburger"></use>
-            </svg>
+          <button type="button" class="open-mob-menu" aria-label="Close" aria-controls="modal-menu" aria-expanded="false">
           </button>
         </nav>
     </div>
-    <div class="mob-menu js-menu-container" id="modal-menu">
+    <div class="mob-menu" id="modal-menu">
       <div class="mob-container">
         <a href="/">
           <svg class="icon-logo" width="100" height="12">
@@ -42,11 +40,11 @@
           </svg>
         </a>
   
-          <button type="button" class="close-menu-btn js-close-menu" aria-label="Close menu">
+          <!-- <button type="button" class="close-menu-btn js-close-menu" aria-label="Close menu">
             <svg class="icon-close" width="24" height="24">
               <use href="./img/icons.svg#icon-close"></use>
             </svg>
-          </button>
+          </button> -->
       </div>
 
         <nav class="mob-nav">
