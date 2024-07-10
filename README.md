@@ -11,9 +11,9 @@ Below is a description of the functionality and content of the site.
 
 The site also 
 
--describes sound quality and various noise reduction modes;
+- describes sound quality and various noise reduction modes;
 
--information about Bose AR technology, an augmented reality audio platform
+- information about Bose AR technology, an augmented reality audio platform
 
 - describes the guarantees the company provides, including a 90-day money-back guarantee and a one-year product warranty
 
